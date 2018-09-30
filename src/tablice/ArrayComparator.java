@@ -2,7 +2,7 @@ package tablice;
 
 public class ArrayComparator {
 
-    Boolean Compare(int[] tab1, int[] tab2) {
+    boolean compare(int[] tab1, int[] tab2) {
         int x = tab1.length;
         int y = tab2.length;
 
@@ -21,7 +21,7 @@ public class ArrayComparator {
 
 
 
-    Boolean Compare(int[][] tab1, int[][] tab2) {
+    boolean compare(int[][] tab1, int[][] tab2) {
         int x1 = tab1.length;
         int y1 = tab2.length;
 
