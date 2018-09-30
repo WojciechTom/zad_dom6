@@ -32,7 +32,7 @@ public class MultiArray {
 
 
     int findMin() {
-        int min = pole[1][1];
+        int min = pole[0][0];
 
         for (int i = 0; i < pole.length; i++) {
             for (int j = 0; j < pole[1].length; j++) {
@@ -45,7 +45,7 @@ public class MultiArray {
     }
 
     int findMax() {
-        int max = pole[1][1];
+        int max = pole[0][0];
 
         for (int i = 0; i < pole.length; i++) {
             for (int j = 0; j < pole[1].length; j++) {
