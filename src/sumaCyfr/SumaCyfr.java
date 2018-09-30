@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class SumaCyfr {
 
-    int suma() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Proszę podać liczbę całkowitą");
-        long liczba = scan.nextLong();
+    int suma(long liczba) {
         int suma = 0;
         int w = 4;
         int potega = ((Long)liczba).toString().length();

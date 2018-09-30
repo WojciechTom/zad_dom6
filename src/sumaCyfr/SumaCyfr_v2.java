@@ -3,10 +3,8 @@ package sumaCyfr;
 import java.util.Scanner;
 
 public class SumaCyfr_v2 {
-    int suma() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Proszę podać liczbę całkowitą");
-        long liczba = scan.nextLong();
+    int suma(long liczba) {
+
         String liczbaS = ((Long)liczba).toString();
         int dlugosc = liczbaS.length();
         int suma = 0;
