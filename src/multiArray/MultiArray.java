@@ -9,13 +9,7 @@ public class MultiArray {
 
     public MultiArray(int n, int m) {
         pole = new int[n][m];
-        Random rand = new Random();
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                pole[i][j] = rand.nextInt(100);
-            }
-        }
+        randomize();
     }
 
 
